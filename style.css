@@ -1,0 +1,77 @@
+.lastupdate{
+    text-align: center;
+    color:white;
+    font-size: 80%;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    border-bottom: 0px;
+    text-align: right;
+
+}
+
+.appCreater{
+    text-align: center;
+    color:white;
+    font-size: 80%;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    text-align: right;
+}
+
+body {
+    background-color: #333333;
+  }
+
+
+.card {
+    background-color: #333333;
+}
+
+
+
+/* .display {
+    background-color: rgb(201, 201, 201);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    width: 90.60%;
+    text-align: right;
+    font-size: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+}
+
+button {
+    padding: 10px;
+    width: 23%;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 178, 178);
+   }
+   button:active {
+    background-color: rgb(136, 136, 136);
+   }
+
+.test-fonts {
+    color: rgb(60, 180, 200);
+    font-family: 'Orbitron', sans-serif; 
+}
+
+
+.col {
+        background-color: rgb(30, 90, 100, 0.05);
+        border: 2px solid;
+        border-color: rgb(30, 90, 100, 0.8); 
+
+} */
+
+

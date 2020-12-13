@@ -1,0 +1,119 @@
+h5 {
+    color: white;
+} 
+
+
+.top-side-ver-space{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.side-ver-space{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.input-ccNum{
+    width: 85%;       
+    margin-left: 7.5%;
+    /*display:inline-block;*/
+}
+
+
+.btn1to6{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.payment{
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+
+
+.calling{
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+
+
+
+
+.input-cash{
+    width: 85%;       
+    margin-left: 7.5%;
+}
+
+
+.table-number-display {
+    background-color:  #AAFFDD    ;
+    margin-right: auto;
+    margin-left: 7.5%;
+    margin-bottom: 2.5%;
+    padding: 0%;
+    padding-top: 2%;
+    width: 30%;
+    text-align: center;
+    font-size: 125%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:   #004d4d ; 
+    text-shadow: 1px 2px 0px #FFFFFF;
+    display:inline-block;margin-right:4%;
+}
+
+.return-display {
+    background-color:  #AAFFDD    ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    width: 50%;
+    text-align: right;
+    font-size: 125%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:   #8a1400 ; 
+    text-shadow: 1px 2px 0px #FFFFFF;
+    display:inline-block;
+}
+
+
+
+
+.cashier-display {
+    background-color:  #AAFFDD    ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5%;
+    padding: 1%;
+    padding-right: 5%;
+    padding-top: 3%;
+    width: 85%;
+    text-align: right;
+    font-size: 225%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:   #004d4d ; 
+    text-shadow: 1px 2px 0px #FFFFFF;
+}
+
+
+.pay-btn-grp{
+    margin-top: 2%;
+    margin-bottom: 5%;
+      text-align: center;
+
+}
+

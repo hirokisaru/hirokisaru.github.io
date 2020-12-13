@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 5</title>
+    <!-- // JustTry*** -->
+    <!-- must edit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="customer-table-all.css">
+
+</head>
+<body> 
+    <nav class="navbar navbar-light  banner-image">
+        <button type="button" class="btn btn-outline-warning btn-brown" onclick="document.location='index.html'">TABLE 5</button>
+        <!-- // JustTry*** -->
+        <!-- must edit -->
+        <!-- insert link by replace index.html -->
+            <span class="navbar-text">
+                
+                <div class="btn-group btn-group-sm btn-group-toggle " data-toggle="buttons">
+                    <label class="btn btn-outline-warning btn-brown">
+                    <input type="radio" name="langBtn" id="langOption1" onclick="langEn()"> English
+                    </label>
+                    <label class="btn btn-outline-warning btn-brown">
+                    <input type="radio" name="langBtn" id="langOption2" onclick="langJp()"> 日本語
+                    </label>
+                    <label class="btn btn-outline-warning btn-brown">
+                    <input type="radio" name="langBtn" id="langOption3" onclick="langTh()"> ภาษาไทย
+                    </label>
+                    &nbsp; &nbsp;
+                    <button type="button" id="startOverBtn" class="btn btn-outline-warning btn-lg btn-brown" onclick="thisTableStartOver()">START OVER</button>
+                </div>
+
+                    <div>
+                        
+                    </div> 
+            </span>
+
+
+
+    </nav>
+
+
+        <div class="row no-gutters">
+
+
+            <div class="col-sm-9 col-md-9 main-bg ">
+                <div class="card mss-display">
+                    <div class="">
+                        
+                        <div class="container main-bg ">
+                            <div class="row row-cols-2 main-bg">
+                              <div class="col" >
+                                <img src="img/H01_pumpkin_336x216.png" id="img01" alt="pumpkin" class="img-thumbnail m-0 p-0" onclick="clickOrderTable1MenuList0()">
+                                            <!-- must edit -->
+                              </div>
+                              
+
+                              <div class="col">
+                                <img src="img/H02_almond_336x216.png" id="img02" alt="almond" class="img-thumbnail m-0 p-0" onclick="clickOrderTable1MenuList1()">
+                                            <!-- must edit -->
+                              </div>
+                              <div class="col">
+                                <img src="img/H03_berry_336x216.png" id="img03" alt="berry" class="img-thumbnail m-0 p-0" onclick="clickOrderTable1MenuList2()">
+                                        <!-- must edit -->
+                              </div>
+                              
+
+                              <div class="col">
+                                <img src="img/H04_apple_336x216.png" id="img04" alt="apple" class="img-thumbnail m-0 p-0" onclick="clickOrderTable1MenuList3()">
+                                        <!-- must edit -->
+                              </div>
+
+                              <div class="col">
+                                <img src="img/A11_croissant_336x216.png" id="img05" alt="croissant" class="img-thumbnail m-0 p-0" onclick="clickOrderTable1MenuList4()">
+                                        <!-- must edit -->
+                              </div>
+
+                              <div class="col ">
+                                <img src="img/A12_petit_336x216.png" id="img06" alt="apple" class="img-thumbnail m-0 p-0 " onclick="clickOrderTable1MenuList5()">
+                                        <!-- must edit -->
+                              </div>
+
+                                <!-- exportTableToExcel -->
+                                <!-- not complete yet -->
+
+                              <!-- <button onclick="exportTableToExcel('myTableT1')">Export Table Data To Excel File</button>
+                                -->
+                                <!-- <br>  -->
+
+                                <!-- exportTableToCSV -->
+                                <!-- THIS ONE WORK PERPECT!!! -->
+
+                                <!--  <button onclick="exportTableToCSV('myTableT1')">Export Table Data To CSV File</button>  
+                                -->
+                                
+
+                            <!-- 
+                            <blockquote class="blockquote text-center">
+                                <p id="thxForOrder" class="mb-0">Thank you for order</p>
+                            <footer class="blockquote-footer">Please make your payment at the cashier after<cite title="Source Title"></cite></footer>
+                            </blockquote> -->
+
+                            <!-- <p id="notToDoubleWork" class="mb-0"></p> -->
+
+                            
+
+
+                        
+
+
+                            </div>
+                          </div>
+
+
+                    </div>
+
+                            <!-- <footer id="thxForOrder2" class="blockquote-footer"></footer> -->
+
+                            <!-- <footer class="blockquote-footer"><cite title="Source Title"></cite></footer> -->
+
+                            <!-- <footer class="blockquote-footer"><cite title="Source Title"></cite></footer> -->
+
+
+                                  <br>
+
+                            <blockquote id="textStaffIsComing" class="blockquote text-center mss-display">
+                                <p class="mb-0"  ></p>
+                            
+                            </blockquote>
+
+                                 <br>
+
+                             <blockquote class="blockquote text-center mss-display ">
+                                <p class="mb-0" id="thxForOrder1"></p>
+                                <p class="mb-0" id="thxForOrder2"></p>
+                            </blockquote> 
+
+
+                            <blockquote id="notToDoubleWork" class="blockquote text-center mss-display">
+                                <p class="mb-0"  ></p>
+                            
+                            </blockquote>
+
+                            
+
+
+                </div>
+                
+            </div>
+
+
+
+
+            <div class="col-sm-3 col-md-3 ">
+                <div class="card">
+
+
+                                 
+
+
+                            <table id="tableHead" class="table table-sm table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">MENU</th>
+
+                                        <th scope="col">SERVE</th>
+                                        
+                                        <th scope="col">PRICE</th>
+                                    
+                                        <!-- OFD = OUT OF ORDER -->
+                                        </tr>
+                                </tbody>
+                            </table>
+                    
+                            
+
+
+
+
+
+                            <div class="table-responsive">
+                                <table id="myTableT1" class="table table-sm">
+                                    <!-- must edit -->
+                                    <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+                                     <tr>
+                                        <td scope="row">_</td>
+                                        <td>_</td>
+                                        <td>_</td>
+                                    </tr>
+
+
+                                    
+
+
+
+                                </table>
+                            </div>
+    
+
+
+
+
+
+
+
+                                <div class="amount-display" >
+                                    <p id="table1CalDisplay">
+                                           ¥0    
+                                     </p>        
+                                     <!-- must edit -->    
+                                </div>
+
+
+
+                            <ul class="nav flex-column">                            
+                                <li class="nav-item side-ver-space">
+                                    <button id="btn-confirmOrder" type="button" class="btn btn-warning btn-lg btn-block btn-sm" onclick="confirmkTable1SetS()">CONFIRM ORDER</button>
+                                                <!-- must edit -->
+                                </li>                                
+
+                                <li class="nav-item side-ver-space">
+                                    <button id="btn-cancelLastOrder" type="button" class="btn btn-outline-warning btn-block btn-sm" onclick="cancelLastOrder()">Cancel the previous order</button>
+                                </li>
+
+                                <li class="nav-item side-ver-space">
+                                    <button id="btn-callStaff" type="button" class="btn btn-outline-danger btn-block btn-sm" onclick="funcCallStaff()">CALL STAFF FOR HELP</button>
+                                </li>
+                                
+                            </ul>  
+
+                    
+                </div>
+            </div>
+
+          
+            
+        </div>        
+
+
+
+
+
+
+
+
+
+
+
+                
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="customer-table-5-order-list.js"></script>
+                        <!-- // JustTry*** -->
+                        <!-- must edit -->
+</body>
+</html>
