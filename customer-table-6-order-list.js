@@ -420,7 +420,7 @@ function clickOrderTable1MenuList0() {
             } 
         } 
         else { 
-        alert("Maximum is 10");
+        alert("Please call our staff in case that you would like to order more than 10.\n10品以上ご注文をご希望の場合は店員をお呼びください。\nโปรดเรียกพนักงานกรณีต้องการสั่งมากกว่า10รายการ");
         orderTable1MenuList.pop(10);
                 //must edit
         lastPriceTable1ForMinus.pop(10);
