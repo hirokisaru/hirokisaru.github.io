@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Panich</title>
+    <link   rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+            crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="rireki.css">
+    
+</head>
+<body class="hrkbgimage">
+
+    <div class="container">
+        <div class="row  d-flex justify-content-center">
+          
+         <!-- <div class="col-sm-2">
+            One of three columns
+          </div> -->
+          <div class="col-sm-8 hrkpaddingcolor  rounded">
+                <div class="hrktogglemenucontent hrk1margin hrkboxshadow  ">
+            
+                        <form method="post" autocomplete="off" name="google-sheet">
+                                    <div class="btn-group btn-group-sm btn-group-toggle " data-toggle="buttons">
+                                        <label class="btn btn-outline-success ">
+                                        <input type="radio" name="langBtn" id="langOption1" onclick="langEn()"> English
+                                        </label>
+                                        <label class="btn btn-outline-success ">
+                                        <input type="radio" name="langBtn" id="langOption2" onclick="langJp()"> 日本語
+                                        </label>
+                                        <label class="btn btn-outline-success ">
+                                        <input type="radio" name="langBtn" id="langOption3" onclick="langTh()"> ภาษาไทย
+                                        </label>
+                                        
+                                    </div>
+                            <h4 id="formTitle" style="text-align: center;"> Contact Form </h4>
+                            <div class="mb-3">
+                                <input type="text" class="form-control"  name="name" id="placeName" aria-describedby="emailHelp" placeholder="Please fill your name">
+                            </div>    
+
+                            <div class="mb-3">    
+                                <input type="email" class="form-control" name="email" id="placeEmail" aria-describedby="emailHelp" placeholder="Enter your email" required>
+                            </div>    
+
+                            <div class="mb-3">    
+                                <input type="text" class="form-control" name="phone" id="placePhone" aria-describedby="emailHelp" placeholder="Enter your phone number (Optional)">
+                            </div>    
+
+                            <div class="mb-3">    
+                                <textarea class="form-control" name="msg" id="placeMsg" placeholder="Please leave your message " rows="5" required></textarea>
+                            </div>    
+                            
+                            <div class="mb-3 d-flex justify-content-center">    
+                            <button type="submit" class="btn hrkbtn" id="submitBTN" onclick="thisTableStartOver()" >Submit</button>
+                            </div>    
+                            
+                            <br/>
+
+                        </form>
+
+                </div>    
+          </div>
+
+          <!-- <div class="col-sm-2">
+            One of three columns
+          </div> -->
+
+        </div>
+      </div>
+
+
+
+
+
+
+    
+    
+    
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="rireki-form.js"></script>
+
+
+
+    
+
+</body>
+</html>
